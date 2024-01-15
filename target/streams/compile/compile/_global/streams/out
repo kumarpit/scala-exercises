@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fp-in-scala/c3-functional-data-structures/List.scala:40:44: ')' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m        else Cons(as.head, apply(as.tail: A*))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fp-in-scala/c3-functional-data-structures/List.scala:61:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
