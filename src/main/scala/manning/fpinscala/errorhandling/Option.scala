@@ -1,4 +1,4 @@
-package manning.fp_ßin_ßscala.c4_ßexception_ßhandling
+package manning.fpinscala.errorhandling
 
 trait Option[A] {
     def map[B](f: A => B): Option[B]

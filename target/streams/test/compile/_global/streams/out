@@ -1,6 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/test/scala/manning/fp-in-scala/c3-functional-data-structures/ListTest.scala:14:36: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: String[0m
-[0m[[0m[31merror[0m] [0m[0m      assertDoesNotCompile(List.sum(List(1,2,3)))[0m
-[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/test/scala/manning/fpinscala/datastructures/ListTest.scala:58:22: value dropWhile2 is not a member of object manning.fpinscala.datastructures.List[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean dropWhile?[0m
+[0m[[0m[31merror[0m] [0m[0m      val ex2 = List.dropWhile2(xs, x => x < 4) // throws a missing param type error[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
