@@ -1,5 +1,8 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(manning.fpinscala.laziness.StreamSpec, org.scalatest.tools.Framework$$anon$1@2d100d05, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(manning.fpinscala.datastructures.ListSpec, org.scalatest.tools.Framework$$anon$1@2d100d05, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(8302d1e2-1277-48b7-aba9-17c2cdd474e5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/test-classes ...[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mStreamSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA Stream[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should build correctly[0m[0m
@@ -26,6 +29,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	manning.fpinscala.laziness.StreamSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	manning.fpinscala.datastructures.ListSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Jan. 19, 2024, 4:14:13 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

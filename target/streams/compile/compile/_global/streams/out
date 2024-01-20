@@ -1,11 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fpinscala/datastructures/List.scala:105:40: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : x$6.type (with underlying type manning.fpinscala.datastructures.List[A])[0m
-[0m[[0m[31merror[0m] [0m[0m required: A[0m
-[0m[[0m[31merror[0m] [0m[0m        foldLeft(l, Nil: List[A])(Cons(_,_))[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fpinscala/datastructures/List.scala:105:42: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : A[0m
-[0m[[0m[31merror[0m] [0m[0m required: manning.fpinscala.datastructures.List[A][0m
-[0m[[0m[31merror[0m] [0m[0m        foldLeft(l, Nil: List[A])(Cons(_,_))[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fpinscala/datastructures/List.scala:152:63: '(' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m        foldRightViaFoldLeft(as, Nil: List[A])((h, acc) => if f(h) then Cons(h, acc) else acc)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/main/scala/manning/fpinscala/datastructures/List.scala:159:2: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m }[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

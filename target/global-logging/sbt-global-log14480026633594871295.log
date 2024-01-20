@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(60bcb517-7a00-4ded-b61e-9e968cfb02b5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mListSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should build correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- shuold return its length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to sum its elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to calculuate the product of elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to remove the tail element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to replace the head element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to dropWhile correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to remove the last element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to reverse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStreamSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Stream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should build correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cons(manning.fpinscala.laziness.Stream$$$Lambda$13879/0x0000000802164440@43da2c68, manning.fpinscala.laziness.Stream$$$Lambda$13880/0x0000000802163840@341571c3) did not equal Cons(manning.fpinscala.laziness.Stream$$$Lambda$13879/0x0000000802164440@78e947fe, manning.fpinscala.laziness.Stream$$$Lambda$13880/0x0000000802163840@6a428de7) (StreamTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cons(h: manning.fpinscala.laziness.Stream$$$Lambda$13879/0x0000000802164440@43da2c68 -> manning.fpinscala.laziness.Stream$$$Lambda$13879/0x0000000802164440@78e947fe, t: manning.fpinscala.laziness.Stream$$$Lambda$13880/0x0000000802163840@341571c3 -> manning.fpinscala.laziness.Stream$$$Lambda$13880/0x0000000802163840@6a428de7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 108 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	manning.fpinscala.laziness.StreamSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jan. 16, 2024, 4:02:01 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,7 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(4935a962-3e5c-4711-8cc3-3f4753a579c3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b3a6328b-f77e-478e-9c16-4f6717580b15), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStreamSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Stream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should build correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mListSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA List[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should build correctly[0m[0m
@@ -13,10 +16,12 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be able to dropWhile correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be able to remove the last element[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be able to reverse[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 122 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 9[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 87 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jan. 16, 2024, 2:21:02 p.m.[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jan. 16, 2024, 4:02:28 p.m.[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,4 +1,5 @@
 #Successful Tests
-#Tue Jan 16 14:21:02 PST 2024
+#Fri Jan 19 16:14:12 PST 2024
 manning.fp_in_scala.c3_functional_data_structures.ListSpec=1705432268472
-manning.fpinscala.datastructures.ListSpec=1705443662096
+manning.fpinscala.laziness.StreamSpec=1705709652947
+manning.fpinscala.datastructures.ListSpec=1705709652951

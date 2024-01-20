@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b68b491e-1a96-4675-b156-91522b10339b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/arpit.kumar/Developer/scala-exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/arpit.kumar/Developer/scala-exercises/src/test/scala/manning/fpinscala/datastructures/ListTest.scala:11:28: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : manning.fpinscala.datastructures.Nil.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(List[Int](1,2,Nil: Int,4) == List(1,2,4))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jan. 19, 2024, 3:47:50 p.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

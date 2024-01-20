@@ -1,40 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="M-3601MD6M" name="manning.fpinscala.datastructures.ListSpec" tests="16" errors="0" failures="0" skipped="0" time="0.018" timestamp="2024-01-19T16:14:12">
+<testsuite hostname="M-3601MD6M" name="manning.fpinscala.laziness.StreamSpec" tests="1" errors="0" failures="0" skipped="0" time="0.005" timestamp="2024-01-19T16:14:12">
           <properties>
       <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/tools/sbt/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-07-19"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
 "/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.16+8-LTS"/><property name="user.name" value="arpit.kumar"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/Users/arpit.kumar/Library/Caches/JNA/temp/jna5129024398701822855.tmp"/><property name="java.vendor.version" value="Corretto-11.0.16.8.1"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/m2/1c_cs5h503n_2d5cdxx_mvp80000gp/T/"/><property name="java.version" value="11.0.16"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/Users/arpit.kumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="Amazon.com Inc."/><property name="scala.ext.dirs" value="/Users/arpit.kumar/.sbt/0.13/java9-rt-ext-amazon_com_inc__11_0_16"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="gopherProxySet" value="false"/><property name="java.class.path" value="/opt/tools/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Amazon.com Inc."/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Los_Angeles"/><property name="os.name" value="Mac OS X"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CA"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/arpit.kumar"/><property name="user.language" value="en"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/m2/1c_cs5h503n_2d5cdxx_mvp80000gp/T/.sbt2a4c29d6/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/m2/1c_cs5h503n_2d5cdxx_mvp80000gp/T/.sbt2a4c29d6/swoval"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="path.separator" value=":"/><property name="os.version" value="14.2.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/><property name="user.dir" value="/Users/arpit.kumar/Developer/scala-exercises"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.16+8-LTS"/><property name="java.class.version" value="55.0"/>
     </properties>
-          <testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should build correctly" time="0.009">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List shuold return its length" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to sum its elements" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to calculuate the product of elements" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to access nth element" time="0.002">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to remove the tail element" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to replace the head element" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to dropWhile correctly" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to remove the last element" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to reverse" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to append an element to a list" time="0.0">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to concatenate a list of lists" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to map" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to filter" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to flatMap" time="0.001">
-                      
-                    </testcase><testcase classname="manning.fpinscala.datastructures.ListSpec" name="A List should be able to zip two lists" time="0.0">
+          <testcase classname="manning.fpinscala.laziness.StreamSpec" name="A Stream should build correctly" time="0.005">
                       
                     </testcase>
           <system-out><![CDATA[]]></system-out>
